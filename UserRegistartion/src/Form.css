@@ -1,0 +1,39 @@
+/* Center the form horizontally and vertically */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Style the form container */
+  .form-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #2196F3; /* Blue background color */
+    border-radius: 10px;
+  }
+  
+  /* Style the input fields */
+  .input-field {
+    /* Add border to input fields */
+    border-radius: 4px; /* Rounded corners */
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+  
+  /* Style the password toggle button */
+  .password-toggle {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #2196F3; /* Blue color */
+    font-weight: bold;
+    margin-left: 5px; /* Add some space between input and button */
+  }
+  
+  /* Style the password toggle button on hover */
+  .password-toggle:hover {
+    text-decoration: underline;
+  }
+  
